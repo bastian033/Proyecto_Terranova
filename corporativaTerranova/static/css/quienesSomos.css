@@ -1,0 +1,31 @@
+body{
+  background-color: orange;
+}
+
+.container {
+    display: flex;
+  }
+
+  .box {
+    width: 500px;
+    height: 200px;
+    margin: 15px;
+  }
+
+  .box img {
+    width: 100%; /* La imagen ocupará todo el ancho del div */
+    height: auto; /* Mantendrá la proporción original */
+    object-fit: cover; /* Ajustará la imagen sin distorsionarse */
+  }
+
+  .box p {
+    padding: 10px;
+  }
+  .box h1{
+    padding: 10px;
+  }
+
+.margen{
+    margin-top: 200px;
+}
+

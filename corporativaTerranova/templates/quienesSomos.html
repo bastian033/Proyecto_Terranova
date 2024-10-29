@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Alexis Armijo</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/quienesSomos.css'%}">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .profile-container {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 900px;
+            margin: 20px auto;
+        }
+        .profile-image img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+        .profile-text {
+            padding: 20px;
+        }
+        .profile-text h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .profile-text p {
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar bg-primary" data-bs-theme="dark">
+    <!-- Navbar content -->
+  </nav>
+<div class="container">
+    <div class="row profile-container">
+        <div class="col-md-4 profile-image">
+            <img src="{% static 'imagenes/casa.jpg'%}" alt="Foto de Alexis Armijo">
+        </div>
+        <div class="col-md-8 profile-text">
+            <h2>Alexis Armijo</h2>
+            <p>
+                Alexis es parte del equipo de <strong>NANOBYTES</strong> desde sus inicios. De profesión Técnico en Sonido y actualmente estudiando Ingeniería en Informática. Se destaca en la reparación de <strong>Notebooks y Computadores Gamer</strong>, su fuerte es en la reparación de <strong>hardware, bisagras de notebook y reparaciones de electrónica menores</strong>.
+            </p>
+            <p>
+                Sus inicios en el mundo de la tecnología de computadoras se remontan a su niñez dentro del mundo del <strong>gaming</strong> para luego adentrarse en la electrónica y así finalmente dedicarse a la reparación de <strong>notebooks y computadoras</strong>.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- ---------------------------- -->
+
+<footer class="bg-light text-dark pt-5 pb-4">
+ 
+</footer>
+</body>
+</html>
