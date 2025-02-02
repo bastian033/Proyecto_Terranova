@@ -5,3 +5,7 @@ def inicio(request):
 
 def quienesSomos(request):
     return render(request, 'quienesSomos.html')
+
+def servicios(request):
+    return render(request, 'servicios.html')
+

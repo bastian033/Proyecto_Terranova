@@ -21,5 +21,6 @@ from corporativaTerranova import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.inicio),
-    path('quienesSomos/', views.quienesSomos)
+    path('quienesSomos/', views.quienesSomos),
+    path('servicios/', views.servicios)
 ]
