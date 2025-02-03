@@ -1,5 +1,5 @@
 /* Estilos div principal */
-.container {
+.servicios{
     display: flex;
     justify-content: center;  /* Centrar horizontalmente */
     align-items: center;
@@ -62,21 +62,30 @@
 }
  
 /* Contenedor de la imagen con botones de navegación */
-.image-container {
+.servicios-cont-img{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Imagen */
-.image-container img {
+.servicios-cont-img img{
     width: 500px;
     height: 300px;
     border-radius: 10px;
     border: 2px solid #ddd;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s ease-in-out;
+}
+
+
+/* Contenedor de la imagen */
+.image-container img {
+    width: 500px;  /* Ancho fijo */
+    height: 300px; /* Alto fijo */
+    overflow: hidden; /* Ocultar el desbordamiento */
+    border: 1px solid #ccc; /* Borde opcional */
+    text-align: center;
 }
 
 /* Botones de navegación */
@@ -161,14 +170,7 @@
     color: white;
 }
 
-/* Contenedor de la imagen */
-.image-container img {
-    width: 500px;  /* Ancho fijo */
-    height: 300px; /* Alto fijo */
-    overflow: hidden; /* Ocultar el desbordamiento */
-    border: 1px solid #ccc; /* Borde opcional */
-    text-align: center;
-}
+
 
 /* Animación suave al cambiar la imagen */
 #service-image {
