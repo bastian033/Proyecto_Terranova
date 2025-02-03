@@ -30,6 +30,7 @@
     font-weight: bold;
     color: #333;
     background-color: #ffffff;
+    border-radius: 10px;
 }
 
 /* Estilo al pasar el mouse */
@@ -80,7 +81,7 @@
 
 
 /* Contenedor de la imagen */
-.image-container img {
+.image-container .carousel img {
     width: 500px;  /* Ancho fijo */
     height: 300px; /* Alto fijo */
     overflow: hidden; /* Ocultar el desbordamiento */
